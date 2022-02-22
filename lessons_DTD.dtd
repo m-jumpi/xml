@@ -1,0 +1,7 @@
+<!ELEMENT TimeTable (cource+)>
+<!ELEMENT cource (name, teacher, duration, startdate, enddate)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT teacher (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT startdate (#PCDATA)>
+<!ELEMENT enddate (#PCDATA)>

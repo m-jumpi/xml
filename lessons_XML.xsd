@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding ="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="TimeTable">
+    <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+            <xs:element name="cource">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="name" type="xs:string"/>
+                        <xs:element name="teacher" type="xs:string"/>
+                        <xs:element name="duration" type="xs:string"/>
+                        <xs:element name="startdate" type="xs:string"/>
+                        <xs:element name="enddate" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:choice>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

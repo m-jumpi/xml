@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding ="utf-8"?>
+<mypfx:TimeTable xmlns:mypfx="http://www.itmo.ru/xml/lessons"
+                    xmlns:res="http://www.itmo.ru/xml/resources">
+    <mypfx:cource>
+        <mypfx:name>CSharp</mypfx:name>
+        <mypfx:teacher>Teacher #1</mypfx:teacher>
+        <mypfx:duration>50</mypfx:duration>
+        <mypfx:startdate>01-01-2022</mypfx:startdate>
+        <mypfx:enddate>01-02-2022</mypfx:enddate>
+        <res:resource>https://docs.microsoft.com/en-us/dotnet/csharp/</res:resource>
+    </mypfx:cource>
+    <mypfx:cource>
+        <mypfx:name>ADO</mypfx:name>
+        <mypfx:teacher>Teacher #2</mypfx:teacher>
+        <mypfx:duration>40</mypfx:duration>
+        <mypfx:startdate>01-03-2022</mypfx:startdate>
+        <mypfx:enddate>01-04-2022</mypfx:enddate>
+        <res:resource>https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-overview</res:resource>
+    </mypfx:cource>
+    <mypfx:cource>
+        <mypfx:name>WinForms</mypfx:name>
+        <mypfx:teacher>Teacher #3</mypfx:teacher>
+        <mypfx:duration>60</mypfx:duration>
+        <mypfx:startdate>01-05-2022</mypfx:startdate>
+        <mypfx:enddate>01-06-2022</mypfx:enddate>
+        <res:resource>https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-6.0</res:resource>
+    </mypfx:cource>
+    <mypfx:cource>
+        <mypfx:name>T-SQL</mypfx:name>
+        <mypfx:teacher>Teacher #4</mypfx:teacher>
+        <mypfx:duration>50</mypfx:duration>
+        <mypfx:startdate>01-07-2022</mypfx:startdate>
+        <mypfx:enddate>01-08-2022</mypfx:enddate>
+        <res:resource>https://docs.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver15</res:resource>
+    </mypfx:cource>
+    <mypfx:cource>
+        <mypfx:name>Databases</mypfx:name>
+        <mypfx:teacher>Teacher #5</mypfx:teacher>
+        <mypfx:duration>40</mypfx:duration>
+        <mypfx:startdate>01.09.2022</mypfx:startdate>
+        <mypfx:enddate>20-09-2022</mypfx:enddate>
+        <res:resource>https://docs.microsoft.com/en-us/sql/?view=sql-server-ver15</res:resource>
+    </mypfx:cource>
+</mypfx:TimeTable>

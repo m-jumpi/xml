@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding ="utf-8"?>
+<!DOCTYPE library SYSTEM "custom_DTD.dtd"[
+<!ENTITY linux "Linux">
+<!ENTITY internet "Internet">
+]>
+<library>
+    <book_catalog>
+        <book id="one" year="2022">
+            <authors>
+                <author>Author 1</author>
+                <author>Author 2</author>
+                <author>&linux;</author>
+                <author>&internet;</author>
+            </authors> 
+            <title>Title 1</title>
+            <publishing>Publishing 1</publishing>
+            <annotation>Annotation 1</annotation>
+        </book>
+        <book id="two" year="2022" isbn="123" issue="original">
+            <title>Title 2</title>
+            <publishing>Publishing 2</publishing>           
+        </book>                
+    </book_catalog>
+    <author_catalog>
+        <author_book idref="one"></author_book>
+        <author_book idref="two"></author_book>
+    </author_catalog>
+</library>
